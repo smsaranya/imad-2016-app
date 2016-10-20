@@ -12,8 +12,14 @@ app.get('/', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-app.get('/file1', function (req, res) {
-  res.send("saranya");
+app.get('/article1', function (req, res) {
+   res.sendFile(path.join(__dirname, 'ui', 'artcle1.html'));
+});
+app.get('/article2', function (req, res) {
+   res.sendFile(path.join(__dirname, 'ui', 'artcle2.html'));
+});
+app.get('/article3', function (req, res) {
+   res.sendFile(path.join(__dirname, 'ui', 'artcle3.html'));
 });
 app.get('/file2', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'art.html'));
