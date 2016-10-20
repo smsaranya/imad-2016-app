@@ -15,7 +15,7 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/file1', function (req, res) {
   res.send("saranya");
 });
-app.get('/ui/main.js', function (req, res) {
+app.get('/file2', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'art.html'));
 });
 var counter=0;
