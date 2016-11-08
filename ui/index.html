@@ -1,53 +1,88 @@
 <!doctype html>
-<html>
-	<head>
-	     <link href="/ui/style.css" rel="stylesheet" />
-		<title>Online Shopping </title>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-		<link href="..\css\style.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body>
-		<div id="container" >
-		
-				<div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Great Deal </div>
-  			<div id="middle">
-				<h5><a href="#">Home</a> | <a href="#">Contact Us</a></h5>
 
-		  		<div id="content">
-					<table align="center"><tr><td>Login</td></tr></table>
-					<form name="addAccountForm">
-						<table cellspacing="10" align="center">
-							<tr>
-								<td align="right">Username</td>
-								<td align="right"><input type="text" name="username"/></td>
-							</tr>
-							<tr>
-								<td align="right">Password</td>
-								<td align="right"><input type="password" name="password"/></td>
-							</tr>
-							<tr>
-								<td align="right">Usertype</td>
-								<td>
-									<select>
-										<option>--Select--</option>
-										<option>Manager</option>
-										<option>Staff</option>
-										<option>Customer</option>
-									</select>
-								</td>
-							</tr>
-							<tr>
-								<td colspan="2" align="center"><input type="submit" value="Login" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" /></td>
-							</tr>
-							<tr>
-								<td></td><td></td>
-							</tr>
-						</table>
-					</form>
-					
-	      		</div>
-  			</div>
-		</div>
-	  	<div id="footerbar"><br/><span id="footertext">&copy; </span></div>
-	</body>
-</html>
+<body>
+<div id="WholePage">
+<div id="Inner">
+<div id="Container" style="border:groove;border-color:#00CCFF">
+<div id="Head">
+<div id="Head_left">
+<div id="Leaf_top"><img src="img/shop3.jpg" width="324" /></div>
+<div id="Leaf_bottom"> <a class="registration" href="register.html">REGISTRATION</a> <a class="log-in" href="login.html">LOG IN</a> </div>
+</div>
+<div id="Head_right">
+<div id="Logo">
+<div id="Name"><span class="blue">F</span><span>ashion</span>&nbsp;<span class="blue">S</span><span>hop</span> </div>
+<div id="Informations">Latest trends in Fashion</div>
+</div>
+<div id="Top_menu"> <a class="kart" href="?page=home"><span>KART</span></a> <a class="orders" href="?page=home"><span>ORDERS</span></a>
+<a class="contact" href="?page=home"><span>CONTACT</span></a>
+<a class="help" href="help.html"><span>HELP</span></a>
+<a class="home" href="?page=home"><span>HOME</span></a>
+</div>
+</div>
+</div>
+<div id="CentralPart">
+<div id="LeftPart">
+<div id="Menu">
+<div id="Menu_header">
+<div class="menu_header_left"> <span class="menu_text"><font face="Georgia, Times New Roman, Times, serif">Search</font></span>
+</div>
+<div class="menu_header_right"> </div>
+<div id="Menu_content"> <!--<a class="menu_item" href="?page=home"><span>--><!-- Start of Page Search -->
+
+		
+		    <h5>&nbsp;</h5>
+		    <input type="text" name="t1" value="search" onfocus=
+"if(this.value=='search')
+{this.value='';}
+"
+onBlur=
+"if(this.value=='')
+{this.value='search';}
+"/>
+            <input name="sub" type="submit" class="button" id="sub" value="Go" />
+
+		
+
+		  <h5>&nbsp;</h5>
+
+</div>
+<div class="menu_header_left"> <span class="menu_text"><a href="men.html">MEN</a></span>
+</div>
+<div class="menu_header_right"> </div>
+</div>
+<div id="Menu_content"> <a class="menu_item" href="mcasual.html"><span>Casual Shirts</span></a><br>
+<a class="menu_item" href="mjeans.html"><span>Jeans</span></a><br>
+<a class="menu_item" href="mtshirts.html"><span>T-shirts
+</span></a><br>
+
+
+</div>
+
+
+<div id="RightPart">
+  <div id="Page"><img src="usepics/akkriti-banner.jpg" alt="" width="669" height="210" name="img"/>
+  <form name="f1">
+  <input type="hidden" name="h1" value="0" />
+  </form>
+    <div id="Page_top">
+  <p> <marquee behavior="scroll" direction="left" onmouseover="stop()" onmouseout="start()"><font color="#FFFF99"><h3>30%off on all summer wear...Hurry!!!</h3></font><font color="#00CC99"><h4>Enjoy the pleasure of shopping with Grwat Deal...</h4></font></marquee><br>
+
+  </p>
+
+ 
+  </div>
+  
+  </div>
+</div></div>
+<div class="cleaner"></div>
+</div>
+<div id="Bottom">
+<p class="down">Copyright © Great Deal, Design by:Saranya</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
