@@ -1,95 +1,52 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
-		<title>HTML5 Layout</title>
-		<link href="..\css\style.css" rel="stylesheet" type="text/css" />	
-	
-		  
-		
-		
-		
+		<title>GCB</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link href="..\css\style.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-	  <script language="javascript" src="..\js\script.js"></script>
-		<div class="wrapper">
-			<header id='header_msg'>Welcome To Online Course Management System				<h1>Hands On Training</h1>
-			<p id="demo"></p>
-				<!--nav>
-					<ul>
-						<li><a href="" class="current">Women</a></li>
-						<li><a href="">Men</a></li>
-						<li><a href="">Kids</a></li>
-						
-					</ul>
-				</nav-->
-			</header>
-			<section class="courses">
-				<article>
-					<figure>
-						<!--img src="images/bok-choi.jpg" alt="Bok Choi" /-->
-						<!--figcaption class='glitter' id='newwidth'>"An investment in knowledge pays the best interest"      - Benjamin Franklin</figcaption-->
-						<div class="newdiv"><img src="..\images\it.png" width="125" height="100" /></div>
-						<div class="newdiv"><img src="..\images\cse.jpg" width="125" height="100" /></div>
-						<div class="newdiv"><img src="..\images\ece.jpg"  width="125" height="100"/></div>
-						<div class="newdiv"><img src="..\images\eee.jpg" width="125" height="100"/></div>
-					</figure>
+		<div id="container" >
+		
+				<div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Great Deal </div>
+  			<div id="middle">
+				<h5><a href="#">Home</a> | <a href="#">Contact Us</a></h5>
+
+		  		<div id="content">
+					<table align="center"><tr><td>Login</td></tr></table>
+					<form name="addAccountForm">
+						<table cellspacing="10" align="center">
+							<tr>
+								<td align="right">Username</td>
+								<td align="right"><input type="text" name="username"/></td>
+							</tr>
+							<tr>
+								<td align="right">Password</td>
+								<td align="right"><input type="password" name="password"/></td>
+							</tr>
+							<tr>
+								<td align="right">Usertype</td>
+								<td>
+									<select>
+										<option>--Select--</option>
+										<option>Manager</option>
+										<option>Staff</option>
+										<option>Customer</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center"><input type="submit" value="Login" />&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" /></td>
+							</tr>
+							<tr>
+								<td></td><td></td>
+							</tr>
+						</table>
+					</form>
 					
-				</article>  
-				
-				<!--article>
-					<figure>
-						<img src="images/info.jpg"  />
-						<figcaption></figcaption>
-					</figure>
-					<hgroup>
-						<h2></h2>
-						<h3>Train  the Trainer Workshop </h3>
-					</hgroup>
-					<p> </p>
-				</article-->    
-			</section>
-			<aside>
-				<section class="courses" id="newfont">
-				 <p style='padding-left:50px;'>Member Registration</p>
-      Username: <br><input type="text" id="usname" class="pink" required="required"><br><br>
-      Password:&nbsp;<br> <input type="password" id="pass" class="pink" required="required"><br><br>
-	 <!-- Email:&nbsp;<br> <input type="text" id="email" class="pink" required="required"-->
-	 
-	
-	   User Type:&nbsp;<br> <select id="usertype"><option value=''>--select--</option><option value='1' selected >Staff</option><option value='2'>Student</option><option value='3'>Others</option></select><br><br>
-	   Phone Number:&nbsp;<br> <input type="text" id="phonenum" class="pink" required="required" size='10' maxlength='10' onkeypress="return numbersonly(event)"><br><br>
-     <br><br>
-      <input align="center" type="button" id="btn" value="Register" onclick="validate()"  onmouseover="this.style.backgroundColor='red';return true;"
-onmouseout="this.style.backgroundColor='bisque';return true;">
-				</section>
-				<!-- class="contact-details">
-					<h2>Contact</h2>
-					<p>Yoko's Kitchen<br />
-						27 Redchurch Street<br />
-						Shoreditch<br />
-						London E2 7DP</p-->
-			
-			</aside>
-			
-			
-			<article>
-			
-					<figure>
-						<img src="..\images\info.jpg"  />
-						<figcaption></figcaption>
-					</figure>
-					<hgroup>
-					
-					</hgroup>
-					<p> </p>
-				</article>    
-			
-			<footer>
-				
-				<div style='float:left'>@2015, All Rights are reserved</div>
-				<div id="demo"></div>
-				
-			</footer>
-		</div><!-- .wrapper -->
+	      		</div>
+  			</div>
+		</div>
+	  	<div id="footerbar"><br/><span id="footertext">&copy; Infosys Limited</span></div>
 	</body>
 </html>
