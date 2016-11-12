@@ -21,12 +21,12 @@ function moveRight()
   if(uname=="")
   {
     alert("please enter the username");
-    document.getElementById("usname").focus();
+  //  document.getElementById("usname").focus();
   }
    else if(pass=="")
   {
     alert("please enter the password");
-    document.getElementById("pass").focus();
+   // document.getElementById("pass").focus();
   }
   else if(uname=="admin" && pass=="admin")
   {
@@ -35,10 +35,10 @@ function moveRight()
   else
   {
    alert("Invalid Username/Password");
-   document.getElementById("usname").value="";
+  ////// document.getElementById("usname").value="";
    
-   document.getElementById("pass").value="";
-   document.getElementById("usname").focus();
+  // document.getElementById("pass").value="";
+  // document.getElementById("usname").focus();
   }
 }
 	
