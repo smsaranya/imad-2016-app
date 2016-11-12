@@ -39,6 +39,25 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/ui/imad.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'imad.png'));
 });
+app.get('/ui/love_sm2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'love_sm2.jpg'));
+});
+
+app.get('/ui/Inspiringvideo--element219--0.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Inspiringvideo--element219--0.jpg'));
+});
+
+app.get('/ui/i_am_worthy_sm.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'i_am_worthy_sm.jpg'));
+});
+
+app.get('/ui/watching_sm.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'watching_sm.jpg'));
+});
+
+app.get('/ui/friends_forever2_sm.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'friends_forever2_sm.jpg'));
+});
 
 
 
