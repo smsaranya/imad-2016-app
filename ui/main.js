@@ -33,6 +33,9 @@ function moveRight()
   else
   {
    alert("Invalid Username/Password");
+   document.getElementById("usname").value="";
+   
+   document.getElementById("pass").value="";
   }
 }
 	
