@@ -56,7 +56,7 @@ app.get('/ui/watching_sm.jpg', function (req, res) {
 });
 
 app.get('/ui/friends_forever2_sm.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'friends_forever2_sm.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'friends_forever2_sm.JPG'));
 });
 
 
